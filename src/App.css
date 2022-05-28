@@ -1,0 +1,25 @@
+*{
+  font-family:sans-serif;
+  text-align: center;
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(209,209,209,1) 3%, rgba(157,157,157,1) 15%, rgba(96,96,96,1) 27%, rgba(62,62,62,1) 35%, rgba(35,35,35,1) 49%, rgba(23,23,23,1) 60%, rgba(0,0,0,1) 100%);
+  color: white;
+}
+button{
+  height : 30px;
+  width : 30px;
+  padding : 1px;
+  font-size: 20px;
+  cursor: pointer;
+  color : skyblue;
+  border : none;
+  transition-timing-function: ease;
+  transition: all 200ms
+}
+button:hover{
+  filter: brightness(5);
+}
+img, button{
+  background: rgba(0%, 0%, 0%, 0.0)
+}
+
